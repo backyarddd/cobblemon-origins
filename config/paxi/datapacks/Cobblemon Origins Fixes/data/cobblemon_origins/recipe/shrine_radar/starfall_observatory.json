@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:steel_gem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:poke_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:starfall_observatory",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:jirachi",
+      "minecraft:custom_name": "{\"text\": \"Starfall Observatory Radar\", \"italic\": false}"
+    }
+  }
+}

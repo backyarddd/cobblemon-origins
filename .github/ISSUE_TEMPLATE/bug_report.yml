@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in Cobblemon Origins is broken
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      description: Shown on the title screen, e.g. 1.1.9
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - Singleplayer
+        - Official server (play.cobbleorigins.net)
+        - My own server
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash report or log
+      description: Paste a link (mclo.gs) to the crash report from crash-reports/ or logs/latest.log

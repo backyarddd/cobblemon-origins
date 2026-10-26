@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WPW",
+    "PBP",
+    "WPW"
+  ],
+  "key": {
+    "W": {
+      "item": "cobblemon:water_gem_block"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "B": {
+      "item": "mega_showdown:blue_orb"
+    }
+  },
+  "result": {
+    "id": "lumymon:primordial_gem",
+    "count": 1
+  }
+}

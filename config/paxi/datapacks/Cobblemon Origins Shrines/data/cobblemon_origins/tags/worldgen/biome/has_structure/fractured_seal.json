@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "id": "terralith:siberian_taiga",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BNB",
+    "GFG",
+    "BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_ice"
+    },
+    "N": {
+      "item": "cobblemon:never_melt_ice"
+    },
+    "G": {
+      "item": "cobblemon:ice_gem_block"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "lumymon:glacier_feather",
+    "count": 1
+  }
+}

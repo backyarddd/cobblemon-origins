@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "lumymon:metal_relic"
+    }
+  ],
+  "result": {
+    "id": "lumymon:registeel_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:ironclad_mausoleum",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:registeel"
+    }
+  }
+}

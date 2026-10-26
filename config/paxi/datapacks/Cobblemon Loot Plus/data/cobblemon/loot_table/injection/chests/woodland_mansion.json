@@ -1,0 +1,145 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "chance": 0.185,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:red_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:blue_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:green_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:pink_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:yellow_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:white_apricorn_seed",
+          "type": "minecraft:item"
+        },
+        {
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "cobblemon:black_apricorn_seed",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": {
+        "max": 2,
+        "min": 1
+      }
+    },
+    {
+      "bonus_rolls": 1,
+      "conditions": [
+        {
+          "chance": 0.185,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:vivichoke_seeds",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "chance": 0.125,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:link_cable",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:profiles/treasure"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:chest"
+}

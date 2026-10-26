@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "cobblemon:psychic_gem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:dream_string",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "visuals": {
+    "animation_intensity": 0.75,
+    "texture": "DEFAULT",
+    "hay_particles": true
+  },
+  "damage_numbers": {
+    "enabled": true,
+    "show_hearths": false,
+    "full_bright": true,
+    "crit_mode": "COLOR_AND_MULTIPLIER",
+    "crit_bold": false,
+    "damage_type_colors": {
+      "dummmmmmy:true": "#910038",
+      "dummmmmmy:critical": "#FF0000",
+      "minecraft:generic": "#FFFFFF",
+      "minecraft:trident": "#00FF9D",
+      "minecraft:dragon_breath": "#E600FF",
+      "minecraft:sonic_boom": "#074550",
+      "minecraft:wind_charge": "#BEF3FF",
+      "attributeslib:bleeding": "#810A0A",
+      "#dummmmmmy:is_explosion": "#FFBB29",
+      "#dummmmmmy:is_cold": "#09D2FF",
+      "#dummmmmmy:is_thorn": "#0FA209",
+      "#dummmmmmy:is_fire": "#FF7700",
+      "#dummmmmmy:is_wither": "#666666",
+      "#minecraft:is_lightning": "#FFF200",
+      "#minecraft:is_drowning": "#1898E3",
+      "#minecraft:witch_resistant_to": "#844CE7"
+    }
+  }
+}

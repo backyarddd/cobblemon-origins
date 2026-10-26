@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Cobblemon Origins fixes: Radical Gyms generate in matching Terralith biomes too; Legendary Monuments battle-victory callbacks skip non-Cobblemon NPC losers (Radical Cobblemon Trainers wins crashed the server); cobblemon:*_loot chest tables redirected to Cobblemon Loot Plus sets; Complete Cobblemon Collection x Mega Showdown species compat; questbook Poke Mart purchase function (cobblemon_origins:shop/buy); CobbledGacha machines that take Relic Coins also take every Gacha Coin (the mod crafts the coins but no machine accepted them); LumyMon Ancient DNA for beating the Elite Four and the final boss of each Radical Cobblemon Trainers series (cobblemon_origins:ancient_dna/*), a hard Cloning Catalyst recipe (Ancient DNA is not craftable), and a Restoration Tank recipe that revives Mewtwo from Ancient DNA + Cloning Catalyst; Koraidon, Miraidon and Type: Null Overworld wild spawns (cobblemon_origins:spawn_pool_world; CR gates them behind the aether / deeperdarker mods)"
+  }
+}

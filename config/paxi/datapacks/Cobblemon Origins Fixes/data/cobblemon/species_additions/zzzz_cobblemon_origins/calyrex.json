@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:calyrex",
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  }
+}

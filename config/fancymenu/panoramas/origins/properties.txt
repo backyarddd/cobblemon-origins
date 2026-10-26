@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = origins
+  speed = 0
+  fov = 46
+  angle = 0
+  start_rotation = 0
+}

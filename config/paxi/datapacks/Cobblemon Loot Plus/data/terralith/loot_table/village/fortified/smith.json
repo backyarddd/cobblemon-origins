@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "terralith:village/fortified/smith/novice",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "terralith:village/fortified/smith/expert",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:profiles/basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:hpsilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:atksilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:defsilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spatksilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spdefsilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:speedsilvercap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shininghpsilvercap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningatksilvercap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningdefsilvercap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspatksilvercap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspdefsilvercap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspeedsilvercap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Shipped in the CurseForge pack, kept out of this public repo:
+# recoloured Cobblemon, Mega Showdown and Complete Cobblemon Collection textures (generated from their jars)
+config/paxi/resourcepacks/Cobblemon Origins MSD Priority/
+config/paxi/resourcepacks/Cobblemon Origins UI/
+# copies of Cobblemon, Mega Showdown and Complete Cobblemon Collection data restored by the private compat tool
+config/paxi/datapacks/Cobblemon Origins Fixes/data/cobblemon/species/
+config/paxi/datapacks/Cobblemon Origins Fixes/data/cobblemon/species_additions/*
+!config/paxi/datapacks/Cobblemon Origins Fixes/data/cobblemon/species_additions/zzzz_cobblemon_origins/
+config/paxi/datapacks/Cobblemon Origins Fixes/data/cobblemon/spawn_pool_world/
+config/paxi/datapacks/Cobblemon Origins Fixes/data/legendary_spawns_ccc/
+config/paxi/datapacks/Cobblemon Origins Fixes/data/paradox_spawns_ccc/
+config/paxi/datapacks/Cobblemon Origins Fixes/data/ub_spawns_ccc/
+
+# Never commit: keys, environment files, per-player caches, binaries
+*key
+*.key
+.env*
+**/usernamecache.json
+**/username-cache.json
+config/roughlyenoughitems/hints.json
+*.jar
+*.zip

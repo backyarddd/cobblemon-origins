@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:azelf",
+  "hitbox": {
+    "fixed": false,
+    "height": 1,
+    "width": 1
+  }
+}

@@ -1,0 +1,26 @@
+#Enable or disable PC Upgrade
+enablePcUpgrade = true
+#Enables or disables the Campfire Pot Upgrade
+enableCampfirePotUpgrade = true
+
+#=== Heal Upgrade Settings ===
+[HealUpgrade]
+	#Enable or disable Heal Upgrade
+	enableHealUpgrade = true
+	#Enable cooldown after healing
+	enableHealCooldown = true
+	#Recharge time in seconds
+	healCooldownSeconds = 150
+
+	#=== Tier reduction settings (in %) ===
+	[HealUpgrade.HealUpgradeTier]
+		#Enable upgrade tiers
+		enableUpgradeTiers = true
+		#Percentage reduction - Tier 1
+		reduceTimeToHealTier1 = 20
+		#Percentage reduction - Tier 2
+		reduceTimeToHealTier2 = 40
+		#Percentage reduction - Tier 3
+		reduceTimeToHealTier3 = 60
+		#Percentage reduction - Tier 4
+		reduceTimeToHealTier4 = 80

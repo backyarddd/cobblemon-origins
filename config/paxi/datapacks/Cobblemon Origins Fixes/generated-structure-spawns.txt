@@ -1,0 +1,6 @@
+data/cobblemon/tags/worldgen/structure/illager_structures.json
+data/minecraft/tags/worldgen/structure/desert_pyramid.json
+data/minecraft/tags/worldgen/structure/fortress.json
+data/minecraft/tags/worldgen/structure/jungle_pyramid.json
+data/minecraft/tags/worldgen/structure/swamp_hut.json
+data/supplementaries/tags/worldgen/structure/adventure_map_destinations.json

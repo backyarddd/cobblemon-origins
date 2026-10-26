@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:mega_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:observatory_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:wishing_weald_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:archaeological_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:mega_site_compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_compass:megaroid_compass"
+        }
+      ]
+    }
+  ]
+}

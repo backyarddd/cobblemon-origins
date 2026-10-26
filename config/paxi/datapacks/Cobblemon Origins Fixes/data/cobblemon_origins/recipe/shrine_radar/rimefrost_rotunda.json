@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "lumymon:cryo_relic"
+    }
+  ],
+  "result": {
+    "id": "lumymon:regice_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:rimefrost_rotunda",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:regice"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:moon_stone"
+    }
+  ],
+  "result": {
+    "id": "lumymon:poke_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:sundered_star",
+      "lumymon:dimension_id": "minecraft:the_end",
+      "lumymon:map_decoration": "lumymon:deoxys",
+      "minecraft:custom_name": "{\"text\": \"The Sundered Star Radar\", \"italic\": false}"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/balls_basic",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/medicine_basic",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/exp_candy_small",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/berries",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:relic_coin",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/tumblestones",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/feathers",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/balls_specialty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/type_gems",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:poketreat",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonrepel:repel",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

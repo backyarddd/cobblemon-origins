@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:primordial_gem"
+    },
+    {
+      "item": "lumymon:desolate_gem"
+    },
+    {
+      "item": "lumymon:aether_gem"
+    },
+    {
+      "item": "lumymon:emerald_emblem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:sky_core",
+    "count": 1
+  }
+}

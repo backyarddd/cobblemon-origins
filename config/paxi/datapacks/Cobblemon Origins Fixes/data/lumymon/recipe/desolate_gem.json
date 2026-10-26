@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GMG",
+    "MRM",
+    "GMG"
+  ],
+  "key": {
+    "G": {
+      "item": "cobblemon:ground_gem_block"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "R": {
+      "item": "mega_showdown:red_orb"
+    }
+  },
+  "result": {
+    "id": "lumymon:desolate_gem",
+    "count": 1
+  }
+}

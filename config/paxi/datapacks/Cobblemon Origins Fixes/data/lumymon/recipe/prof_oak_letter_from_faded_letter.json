@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:faded_letter"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "id": "lumymon:prof_oak_letter",
+    "count": 1
+  }
+}

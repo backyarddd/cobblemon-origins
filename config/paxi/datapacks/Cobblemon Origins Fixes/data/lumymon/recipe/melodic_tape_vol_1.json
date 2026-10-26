@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "PDP",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "cobblemon:steel_gem_block"
+    },
+    "P": {
+      "item": "cobblemon:psychic_gem_block"
+    },
+    "D": {
+      "tag": "minecraft:creeper_drop_music_discs"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "lumymon:melodic_tape_vol_1",
+    "count": 1
+  }
+}

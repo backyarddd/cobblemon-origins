@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:electric_gem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:zapdos_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:stormcaller_citadel",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:zapdos"
+    }
+  }
+}

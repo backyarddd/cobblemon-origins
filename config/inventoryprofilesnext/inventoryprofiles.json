@@ -1,0 +1,22 @@
+{
+  "ModSettings": {
+    "first_run": false,
+    "highlight_foused_items": {
+      "value": false
+    }
+  },
+  "AutoRefillSettings": {
+    "auto_refill_enable_indicator_icons": false,
+    "auto_refill_enable_horbar_indicator_icons": false
+  },
+  "GuiSettings": {
+    "enable_profiles_ui": false
+  },
+  "Hotkeys": {
+    "sort_inventory": {
+      "main": {
+        "keys": "BUTTON_3"
+      }
+    }
+  }
+}

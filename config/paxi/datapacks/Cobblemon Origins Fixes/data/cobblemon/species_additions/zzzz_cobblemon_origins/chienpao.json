@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:chienpao",
+  "hitbox": {
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:shiny_stone"
+    }
+  ],
+  "result": {
+    "id": "lumymon:poke_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:tree_of_beginning",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:mew",
+      "minecraft:custom_name": "{\"text\": \"Tree of Beginning Radar\", \"italic\": false}"
+    }
+  }
+}

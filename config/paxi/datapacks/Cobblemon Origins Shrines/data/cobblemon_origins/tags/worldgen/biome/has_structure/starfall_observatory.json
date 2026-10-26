@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:flower_forest",
+    "minecraft:cherry_grove",
+    {
+      "id": "terralith:moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    }
+  ]
+}

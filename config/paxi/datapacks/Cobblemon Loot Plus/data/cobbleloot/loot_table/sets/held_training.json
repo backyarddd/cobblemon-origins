@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:lucky_egg",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_share",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:destiny_knot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:everstone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_anklet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_band"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_belt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_bracer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_lens"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:power_weight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:soothe_bell"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:deoxys",
+  "baseScale": 1,
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "canWalk": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:eye_of_ender",
+        "quantityRange": "3-5"
+      }
+    ]
+  },
+  "hitbox": {
+    "width": 1,
+    "height": 4,
+    "fixed": false
+  }
+}

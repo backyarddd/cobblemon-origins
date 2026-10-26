@@ -1,0 +1,191 @@
+{
+  "parent": "rctmod:trainers/defeat_champion_terry",
+  "display": {
+    "icon": {
+      "id": "lumymon:ancient_dna"
+    },
+    "title": {
+      "text": "Genes of Kanto"
+    },
+    "description": {
+      "text": "Defeat the Elite Four and Champion Terry, the final boss of the Radical Red series, for an Ancient DNA"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lorelei_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_lorelei_004d",
+          "elite_four_lorelei_004e"
+        ],
+        "count": 1
+      }
+    },
+    "lorelei_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_lorelei": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bruno_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_bruno_0050",
+          "elite_four_bruno_0051"
+        ],
+        "count": 1
+      }
+    },
+    "bruno_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_bruno": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "agatha_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_agatha_0053",
+          "elite_four_agatha_0054"
+        ],
+        "count": 1
+      }
+    },
+    "agatha_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_agatha": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lance_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_lance_0056",
+          "elite_four_lance_0057"
+        ],
+        "count": 1
+      }
+    },
+    "lance_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_lance": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "terry_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "champion_terry_01b6",
+          "champion_terry_01b7",
+          "champion_terry_01b8"
+        ],
+        "count": 1
+      }
+    },
+    "terry_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_champion_terry": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lorelei_defeated",
+      "lorelei_already_defeated"
+    ],
+    [
+      "bruno_defeated",
+      "bruno_already_defeated"
+    ],
+    [
+      "agatha_defeated",
+      "agatha_already_defeated"
+    ],
+    [
+      "lance_defeated",
+      "lance_already_defeated"
+    ],
+    [
+      "terry_defeated",
+      "terry_already_defeated"
+    ]
+  ],
+  "rewards": {
+    "function": "cobblemon_origins:ancient_dna/grant"
+  }
+}

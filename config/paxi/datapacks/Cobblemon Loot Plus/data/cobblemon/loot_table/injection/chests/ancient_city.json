@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "chance": 0.125,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:link_cable",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:profiles/treasure"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:chest"
+}

@@ -1,0 +1,785 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  background_type = color_fancymenu
+  instance_identifier = origins_bg_fallback
+  show_background = true
+  color = #0B1530
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = origins_bg
+  show_background = true
+  image_path = [source:local]config/fancymenu/assets/origins/background.jpg
+  slide = false
+  repeat_texture = false
+  parallax = false
+  invert_parallax = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_shade
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/shade_bottom.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  advanced_posx = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.45","decimal":"false"}}
+  advanced_width = {"placeholder":"guiwidth"}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.55 + 1","decimal":"false"}}
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_panel
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/panel.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 4
+  nine_slice_texture_border_y = 4
+  image_tint = #FFFFFF
+  anchor_point = top-centered
+  x = -145
+  y = 0
+  width = 290
+  height = 117
+  advanced_posy = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiheight"} / 2 + (0.585 - 0.5) * (({"placeholder":"guiheight"}) + ({"placeholder":"guiwidth"} / 1.77683) + abs(({"placeholder":"guiheight"}) - ({"placeholder":"guiwidth"} / 1.77683))) / 2) + ({"placeholder":"guiheight"} - 133) - abs(({"placeholder":"guiheight"} / 2 + (0.585 - 0.5) * (({"placeholder":"guiheight"}) + ({"placeholder":"guiwidth"} / 1.77683) + abs(({"placeholder":"guiheight"}) - ({"placeholder":"guiwidth"} / 1.77683))) / 2) - ({"placeholder":"guiheight"} - 133))) / 2","decimal":"false"}}
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_join_official
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 7
+  y = 7
+  width = 276
+  height = 24
+  label = Join Official Server
+  hoverlabel = Join Official Server
+  description = play.cobbleorigins.net
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button_gold.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_gold_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_big_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #13214A
+  label_hover_color = #0B1530
+  label_scale = 1.0
+  label_shadow = false
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_join_official
+  [executable_block:blk_origins_join_official][type:generic] = [executables:act_origins_join_official;]
+  [executable_action_instance:act_origins_join_official][action_type:joinserver] = play.cobbleorigins.net
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_singleplayer
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 7
+  y = 36
+  width = 135
+  height = 24
+  label = {"translate":"menu.singleplayer"}
+  hoverlabel = {"translate":"menu.singleplayer"}
+  description = 
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button_big.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_big_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_big_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_singleplayer
+  [executable_block:blk_origins_singleplayer][type:generic] = [executables:act_origins_singleplayer;]
+  [executable_action_instance:act_origins_singleplayer][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_multiplayer
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 148
+  y = 36
+  width = 135
+  height = 24
+  label = {"translate":"menu.multiplayer"}
+  hoverlabel = {"translate":"menu.multiplayer"}
+  description = 
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button_big.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_big_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_big_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_multiplayer
+  [executable_block:blk_origins_multiplayer][type:generic] = [executables:act_origins_multiplayer;]
+  [executable_action_instance:act_origins_multiplayer][action_type:mimicbutton] = title_screen:mc_titlescreen_multiplayer_button
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_options
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 7
+  y = 65
+  width = 90
+  height = 20
+  label = {"translate":"menu.options"}
+  hoverlabel = {"translate":"menu.options"}
+  description = 
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_options
+  [executable_block:blk_origins_options][type:generic] = [executables:act_origins_options;]
+  [executable_action_instance:act_origins_options][action_type:mimicbutton] = title_screen:mc_titlescreen_options_button
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_mods
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 100
+  y = 65
+  width = 90
+  height = 20
+  label = {"translate":"modmenu.title"}
+  hoverlabel = {"translate":"modmenu.title"}
+  description = 
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_mods
+  [executable_block:blk_origins_mods][type:generic] = [executables:act_origins_mods;]
+  [executable_action_instance:act_origins_mods][action_type:opengui] = com.terraformersmc.modmenu.gui.ModsScreen
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_quit
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 193
+  y = 65
+  width = 90
+  height = 20
+  label = {"translate":"menu.quit"}
+  hoverlabel = {"translate":"menu.quit"}
+  description = 
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_quit
+  [executable_block:blk_origins_quit][type:generic] = [executables:act_origins_quit;]
+  [executable_action_instance:act_origins_quit][action_type:mimicbutton] = title_screen:mc_titlescreen_quit_button
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_discord
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 7
+  y = 90
+  width = 135
+  height = 20
+  label = Discord
+  hoverlabel = Discord
+  description = Join the Cobblemon Origins Discord
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_discord
+  [executable_block:blk_origins_discord][type:generic] = [executables:act_origins_discord;]
+  [executable_action_instance:act_origins_discord][action_type:openlink] = https://discord.gg/tEtQvqXjf8
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_curseforge
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = origins_panel
+  x = 148
+  y = 90
+  width = 135
+  height = 20
+  label = CurseForge
+  hoverlabel = CurseForge
+  description = Cobblemon Origins on CurseForge
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label_base_color = #FFF1D0
+  label_hover_color = #FFD966
+  label_scale = 1.0
+  label_shadow = true
+  underline_label_on_hover = false
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_curseforge
+  [executable_block:blk_origins_curseforge][type:generic] = [executables:act_origins_curseforge;]
+  [executable_action_instance:act_origins_curseforge][action_type:openlink] = https://www.curseforge.com/minecraft/modpacks/cobblemon-origins-road-to-champion
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_join_official
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]cobblemon:textures/item/poke_balls/master_ball.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_join_official
+  x = 5
+  y = 4
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_singleplayer
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]cobblemon:textures/item/poke_balls/poke_ball.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_singleplayer
+  x = 5
+  y = 4
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_multiplayer
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]cobblemon:textures/item/evolution/link_cable.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_multiplayer
+  x = 5
+  y = 4
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_options
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]minecraft:textures/item/redstone.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_options
+  x = 3
+  y = 2
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_mods
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]cobblemon:textures/item/pokedexes/pokedex_red.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_mods
+  x = 3
+  y = 2
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_quit
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]minecraft:textures/item/oak_door.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_quit
+  x = 3
+  y = 2
+  width = 16
+  height = 16
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_discord
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/icon_discord.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_discord
+  x = 4
+  y = 3
+  width = 15
+  height = 15
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_icon_curseforge
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/icon_curseforge.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_curseforge
+  x = 4
+  y = 3
+  width = 15
+  height = 15
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_language
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = top-right
+  x = -50
+  y = 6
+  width = 21
+  height = 21
+  label = 
+  hoverlabel = 
+  description = {"placeholder":"local","values":{"key":"options.language"}}
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_language
+  [executable_block:blk_origins_language][type:generic] = [executables:act_origins_language;]
+  [executable_action_instance:act_origins_language][action_type:mimicbutton] = title_screen:376382
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_language_icon
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]minecraft:textures/gui/sprites/icon/language.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_language
+  x = 3
+  y = 3
+  width = 15
+  height = 15
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = origins_accessibility
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = top-right
+  x = -27
+  y = 6
+  width = 21
+  height = 21
+  label = 
+  hoverlabel = 
+  description = {"placeholder":"local","values":{"key":"options.accessibility"}}
+  backgroundnormal = [source:local]config/fancymenu/assets/origins/button.png
+  backgroundhovered = [source:local]config/fancymenu/assets/origins/button_hover.png
+  background_texture_inactive = [source:local]config/fancymenu/assets/origins/button_inactive.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  navigatable = true
+  button_element_executable_block_identifier = blk_origins_accessibility
+  [executable_block:blk_origins_accessibility][type:generic] = [executables:act_origins_accessibility;]
+  [executable_action_instance:act_origins_accessibility][action_type:mimicbutton] = title_screen:604382
+}
+
+element {
+  element_type = image
+  instance_identifier = origins_accessibility_icon
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:location]minecraft:textures/gui/sprites/icon/accessibility.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = element
+  anchor_point_element = origins_accessibility
+  x = 3
+  y = 3
+  width = 15
+  height = 15
+}
+
+element {
+  element_type = splash_text
+  instance_identifier = origins_splash
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 30
+  advanced_posx = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"} / 2 + (0.8 - 0.5) * (({"placeholder":"guiwidth"}) + ({"placeholder":"guiheight"} * 1.77683) + abs(({"placeholder":"guiwidth"}) - ({"placeholder":"guiheight"} * 1.77683))) / 2) + ({"placeholder":"guiwidth"} - 92) - abs(({"placeholder":"guiwidth"} / 2 + (0.8 - 0.5) * (({"placeholder":"guiwidth"}) + ({"placeholder":"guiheight"} * 1.77683) + abs(({"placeholder":"guiwidth"}) - ({"placeholder":"guiheight"} * 1.77683))) / 2) - ({"placeholder":"guiwidth"} - 92))) / 2 - 50","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 + (0.24 - 0.5) * (({"placeholder":"guiheight"}) + ({"placeholder":"guiwidth"} / 1.77683) + abs(({"placeholder":"guiheight"}) - ({"placeholder":"guiwidth"} / 1.77683))) / 2","decimal":"false"}}
+  source_mode = text_file
+  source = [source:local]config/fancymenu/assets/origins/splashes.txt
+  scale = 1.0
+  rotation = -20.0
+  base_color = #FFFF55
+  shadow = true
+  bouncing = true
+  refresh = false
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = origins_version
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = top-left
+  x = 2
+  y = 0
+  width = 320
+  height = 16
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 13 + 1000 * (((1) + (((0) + (472 - {"placeholder":"guiwidth"}) + abs((0) - (472 - {"placeholder":"guiwidth"}))) / 2) - abs((1) - (((0) + (472 - {"placeholder":"guiwidth"}) + abs((0) - (472 - {"placeholder":"guiwidth"}))) / 2))) / 2)","decimal":"false"}}
+  source_mode = direct
+  source = %#FFD966%Cobblemon Origins%#% %#D7DEEE%1.1.9  |  Minecraft {"placeholder":"mcversion"}  |  Fabric%#%
+  scale = 1.0
+  shadow = true
+  base_color = #FFFFFF
+  line_spacing = 2
+  text_border = 0
+  auto_line_wrapping = false
+  enable_scrolling = false
+  parse_markdown = true
+  case_mode = normal
+  interactable = false
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = origins_version_short
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = top-left
+  x = 2
+  y = 0
+  width = 320
+  height = 16
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 13 + 1000 * (1 - (((1) + (((0) + (472 - {"placeholder":"guiwidth"}) + abs((0) - (472 - {"placeholder":"guiwidth"}))) / 2) - abs((1) - (((0) + (472 - {"placeholder":"guiwidth"}) + abs((0) - (472 - {"placeholder":"guiwidth"}))) / 2))) / 2))","decimal":"false"}}
+  source_mode = direct
+  source = %#FFD966%Cobblemon Origins%#% %#D7DEEE%1.1.9%#%
+  scale = 1.0
+  shadow = true
+  base_color = #FFFFFF
+  line_spacing = 2
+  text_border = 0
+  auto_line_wrapping = false
+  enable_scrolling = false
+  parse_markdown = true
+  case_mode = normal
+  interactable = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376382
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604382
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604346
+  is_hidden = true
+}

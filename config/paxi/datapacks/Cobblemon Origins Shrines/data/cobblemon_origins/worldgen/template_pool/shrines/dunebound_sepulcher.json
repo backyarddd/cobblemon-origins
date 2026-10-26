@@ -1,0 +1,20 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cobblemon_origins:shrines/dunebound_sepulcher",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "none",
+        "allow_bounding_box_collisions": true
+      }
+    }
+  ]
+}

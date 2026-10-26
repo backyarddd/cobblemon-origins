@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:ground_gem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:groudon_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:primal_throne",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:groudon"
+    }
+  }
+}

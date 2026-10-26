@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_5"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_6"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_7"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_8"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_9"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:gacha_coin_10"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobbledgacha:koban_coin",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

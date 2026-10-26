@@ -1,0 +1,217 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:azure_flute"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:red_chain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:titan_key"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:time_globe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:space_globe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:antimatter_globe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:cobblemax"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ancient_origin_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shinycard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:vortex_stone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:rainbow_feather",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:truthbottle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:idealsbottle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:herosword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:heroshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:medallion_of_renewal",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:newmoon_whistle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:proof_of_conquest_m",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:proof_of_conquest_a",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:proof_of_conquest_u",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:curry_of_justice",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:mastercandy",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:mewtwonite_x",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:mewtwonite_y",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:red_orb",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:blue_orb",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:lightstone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:darkstone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:celestica_flute",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:entei_treat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:raikou_treat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:suicune_treat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:latias_treat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:latios_treat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:temple_key",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:goldencap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:old_sea_map",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:liberty_pass",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:tablet_of_reawakening",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:catching_charm",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_patch",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:medallion_of_renewal_fragment",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

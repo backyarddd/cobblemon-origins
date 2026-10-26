@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/mega_stones",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/held_competitive_top",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/z_crystals",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_patch",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/mints",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:pp_max",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/gimmick_key_items",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/legendary_relics",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:goldencap",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/shining_caps",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/evolution_stone_blocks",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:relic_coin_sack",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shinycard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:mastercandy"
+        }
+      ]
+    }
+  ]
+}

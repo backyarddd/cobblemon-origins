@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 1,
+      "conditions": [
+        {
+          "chance": 0.273,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cobblemon:vivichoke_seeds",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "chance": 0.45,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "components": {
+                "cobblemon:tm_move": {
+                  "move": "grasspledge"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "cobblemon:technical_machine",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:profiles/adventure"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:chest"
+}

@@ -1,0 +1,149 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  background_type = color_fancymenu
+  instance_identifier = loading_bg_fallback
+  show_background = true
+  color = #0B1530
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = loading_bg
+  show_background = true
+  image_path = [source:local]config/fancymenu/assets/origins/background.jpg
+  slide = false
+  repeat_texture = false
+  parallax = false
+  invert_parallax = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = loading_shade
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/shade_bottom.png
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  advanced_posx = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.45","decimal":"false"}}
+  advanced_width = {"placeholder":"guiwidth"}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.55 + 1","decimal":"false"}}
+}
+
+element {
+  element_type = image
+  instance_identifier = loading_frame
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  source = [source:local]config/fancymenu/assets/origins/panel.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 4
+  nine_slice_texture_border_y = 4
+  image_tint = #FFFFFF
+  anchor_point = top-centered
+  x = -130
+  y = 0
+  width = 260
+  height = 18
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 + (0.605 - 0.5) * (({"placeholder":"guiheight"}) + ({"placeholder":"guiwidth"} / 1.77683) + abs(({"placeholder":"guiheight"}) - ({"placeholder":"guiwidth"} / 1.77683))) / 2","decimal":"false"}}
+}
+
+element {
+  element_type = progress_bar
+  instance_identifier = loading_bar
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = loading_frame
+  x = 5
+  y = 5
+  width = 250
+  height = 8
+  bar_color = #FFD24A
+  background_color = #0B1530
+  bar_texture = [source:local]config/fancymenu/assets/origins/bar_fill.png
+  bar_nine_slice = false
+  background_nine_slice = false
+  direction = right
+  value_mode = percentage
+  progress_source = {"placeholder":"game_loading_progress"}
+  smooth_filling_animation = false
+  progress_for_element_anchor = false
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = loading_text
+  stay_on_screen = false
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  enable_parallax = false
+  anchor_point = element
+  anchor_point_element = loading_frame
+  x = -50
+  y = 23
+  width = 360
+  height = 28
+  source = ^^^%n%Loading Cobblemon Origins  %#FFD966%{"placeholder":"game_loading_progress"}%#%%%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/origins/tips.txt","interval":"7"}}%n%^^^
+  scale = 1.0
+  shadow = true
+  base_color = #FFF1D0
+  line_spacing = 2
+  text_border = 1
+  auto_line_wrapping = false
+  enable_scrolling = false
+  parse_markdown = true
+  case_mode = normal
+  interactable = false
+  source_mode = direct
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  is_hidden = true
+}

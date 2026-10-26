@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "filterEnabled": true,
+  "syncWithModMenu": true,
+  "showTagBadges": true,
+  "autoHideLibraries": false,
+  "dependencyProtection": true,
+  "compactBadges": false,
+  "matchAllTagFilters": false,
+  "hiddenMods": [],
+  "favoriteMods": [],
+  "hiddenTags": [],
+  "hidePatterns": [],
+  "tagOverrides": {},
+  "customTags": {},
+  "tagColors": {},
+  "activeProfile": "default",
+  "profiles": {},
+  "lastSyncedHiddenMods": []
+}

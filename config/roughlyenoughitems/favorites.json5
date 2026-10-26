@@ -1,0 +1,10 @@
+{
+	"favorites": [
+		"{data:{count:1,id:\"minecraft:spruce_trapdoor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"minecraft:mangrove_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"sophisticatedbackpacks:pickup_upgrade\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{components:{\"minecraft:suspicious_stew_effects\":[{duration:120,id:\"minecraft:jump_boost\"}]},count:1,id:\"minecraft:suspicious_stew\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

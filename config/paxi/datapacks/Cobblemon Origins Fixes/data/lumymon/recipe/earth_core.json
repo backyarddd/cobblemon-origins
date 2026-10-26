@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MNM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "lumymon:molten_crust"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "lumymon:earth_core",
+    "count": 1
+  }
+}

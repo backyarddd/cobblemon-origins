@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:mesprit",
+  "hitbox": {
+    "fixed": false,
+    "height": 1,
+    "width": 1
+  }
+}

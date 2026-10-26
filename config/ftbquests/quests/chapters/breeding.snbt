@@ -1,0 +1,589 @@
+{
+	autofocus_id: "50241BEEFAA4B30D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "breeding"
+	group: "55944A9CBCB494B1"
+	icon: {
+		id: "cobblemon:pasture"
+	}
+	id: "36A0DED9FBD2BF19"
+	images: [
+		{
+			height: 1.0d
+			image: "cobblemon:item/held_items/destiny_knot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.25d
+		}
+	]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DF2473E44F2E4D8"]
+			icon: {
+				id: "cobblemon:pasture"
+			}
+			id: "50241BEEFAA4B30D"
+			rewards: [
+				{
+					id: "1164EE526993648F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					command: "/cobbledollars give {p} 600"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "65CCE1FB26761F6F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "384B9E4B83E9A268"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50241BEEFAA4B30D"]
+			icon: {
+				id: "cobblemon:pink_apricorn"
+			}
+			id: "20FBC7384588BAF2"
+			rewards: [
+				{
+					id: "0A765171FBA73ACF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "28D8FF0A73C757FF"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50241BEEFAA4B30D"]
+			icon: {
+				id: "cobbreeding:pokemon_egg"
+			}
+			id: "4B98AE4862A9BAB5"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 750"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "56DE9DAC46EBBE56"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 3
+					id: "46BB1B6597C17A51"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					abilities: ""
+					action: "collect_egg"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "3E8CF0DAB710C2C1"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B98AE4862A9BAB5"]
+			icon: {
+				id: "cobbreeding:pokemon_egg"
+			}
+			id: "3BE4E2C2126AE48E"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "54969681104E91AE"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "10E8EB49D601F4FD"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "088C78777A47F378"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BE4E2C2126AE48E"]
+			icon: {
+				id: "cobbreeding:pokemon_egg"
+			}
+			id: "25FD7784C305F769"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3970B48B1E83B224"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7007E7A05DF91737"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 10L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "40C77BB27E6C5DBC"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["25FD7784C305F769"]
+			icon: {
+				id: "cobbreeding:pokemon_egg"
+			}
+			id: "3ADC61B52BDF5AA1"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 3000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "00461AFD5E0724D3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EB785AC69F5A885"
+					table_id: 3580048545722715015L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 50L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "68BD4A019B199C4A"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 8.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["50241BEEFAA4B30D"]
+			icon: {
+				id: "cobblemon:everstone"
+			}
+			id: "6BF91C85FCAC0861"
+			rewards: [
+				{
+					id: "19B8004A2ABC2136"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "3DEA37F7E3B2F62A"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BF91C85FCAC0861"]
+			id: "4BAAEB6B19B27A43"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "13C157A0C40C20DB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5585EFB7680DD34D"
+					item: {
+						count: 1
+						id: "cobblemon:destiny_knot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BF91C85FCAC0861"]
+			id: "5F51F8EBBBAFF3F8"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 750"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "57C338AB93799046"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "651251A175362BC1"
+					item: {
+						count: 1
+						id: "cobblemon:everstone"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BE4E2C2126AE48E"]
+			icon: {
+				id: "cobblemon:light_ball"
+			}
+			id: "4B3EB536170D4C69"
+			optional: true
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4713F291CCB0C3B3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "63BB58CCE1E4A940"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "71001FDD637ABBF0"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:pichu"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BE4E2C2126AE48E"]
+			icon: {
+				id: "cobblemon:dive_ball"
+			}
+			id: "03170EC31F4944CB"
+			optional: true
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2F08E3E263B4EEAB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39516C7726097AAC"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "2BC34E88C39EACA8"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:phione"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3ADC61B52BDF5AA1"
+				"4BAAEB6B19B27A43"
+				"5F51F8EBBBAFF3F8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "cobbreeding:pokemon_egg"
+			}
+			id: "2365C79933D78EC1"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 10000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3AFC577F7A5F6EB6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51D1C553BCEDEB66"
+					table_id: 3580048545722715015L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					abilities: ""
+					action: "hatch_egg"
+					amount: 100L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "55B429C91246815F"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 10.75d
+			y: 0.0d
+		}
+	]
+}

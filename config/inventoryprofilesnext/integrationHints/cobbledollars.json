@@ -1,0 +1,20 @@
+{
+    "fr.harmex.cobbledollars.common.client.gui.screen.ShopScreen": {
+        "buttonHints": {
+            "SORT":              { "horizontalOffset": 10000 },
+            "SORT_COLUMNS":      { "horizontalOffset": 10000 },
+            "SORT_ROWS":         { "horizontalOffset": 10000 },
+            "MOVE_TO_CONTAINER": { "horizontalOffset": 10000 },
+            "MOVE_TO_PLAYER":    { "horizontalOffset": 10000 }
+        }
+    },
+    "fr.harmex.cobbledollars.common.client.gui.screen.BankScreen": {
+        "buttonHints": {
+            "SORT":              { "horizontalOffset": 10000 },
+            "SORT_COLUMNS":      { "horizontalOffset": 10000 },
+            "SORT_ROWS":         { "horizontalOffset": 10000 },
+            "MOVE_TO_CONTAINER": { "horizontalOffset": 10000 },
+            "MOVE_TO_PLAYER":    { "horizontalOffset": 10000 }
+        }
+    }
+}

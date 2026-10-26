@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "cobblemon:water_gem"
+    }
+  ],
+  "result": {
+    "id": "lumymon:kyogre_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:abyssal_sanctum",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:kyogre"
+    }
+  }
+}

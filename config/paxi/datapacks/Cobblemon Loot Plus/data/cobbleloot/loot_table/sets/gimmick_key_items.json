@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:mega_bracelet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:z_ring",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dynamax_band",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:tera_orb",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:max_soup"
+        }
+      ]
+    }
+  ]
+}

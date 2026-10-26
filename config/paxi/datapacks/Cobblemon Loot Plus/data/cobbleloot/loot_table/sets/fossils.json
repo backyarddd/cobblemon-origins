@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:armor_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:claw_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:cover_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dome_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:helix_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:jaw_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:old_amber_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:plume_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:root_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:sail_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:skull_fossil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fossilized_bird"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fossilized_dino"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fossilized_drake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fossilized_fish"
+        }
+      ]
+    }
+  ]
+}

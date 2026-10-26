@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:tornadus",
+  "hitbox": {
+    "width": 2.2,
+    "height": 2.5,
+    "fixed": false
+  }
+}

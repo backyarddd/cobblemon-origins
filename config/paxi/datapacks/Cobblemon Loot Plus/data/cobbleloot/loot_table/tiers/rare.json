@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/held_competitive",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/mints",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/evolution_items",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/vitamins",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/exp_candy_large",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/silver_caps",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/tera_shards",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/gimmick_materials",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/evolution_stones",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:pp_up",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/fossils",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ultra_ball",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:max_revive",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:sets/compasses",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonrepel:max_repel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:transmutationorb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:ridersrelic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:catching_charm"
+        }
+      ]
+    }
+  ]
+}

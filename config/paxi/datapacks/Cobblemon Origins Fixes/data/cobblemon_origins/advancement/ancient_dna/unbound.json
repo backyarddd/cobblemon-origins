@@ -1,0 +1,185 @@
+{
+  "parent": "rctmod:trainers/defeat_light_of_ruin_aklove_3",
+  "display": {
+    "icon": {
+      "id": "lumymon:ancient_dna"
+    },
+    "title": {
+      "text": "Genes of Borrius"
+    },
+    "description": {
+      "text": "Defeat the Elite Four and Aklove, Light of Ruin, the final boss of the Unbound series, for an Ancient DNA"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "moleman_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_moleman_05b3"
+        ],
+        "count": 1
+      }
+    },
+    "moleman_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_moleman": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "elias_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_elias_05b4"
+        ],
+        "count": 1
+      }
+    },
+    "elias_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_elias": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "arabella_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_arabella_05b5"
+        ],
+        "count": 1
+      }
+    },
+    "arabella_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_arabella": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "penny_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "elite_four_penny_05b6"
+        ],
+        "count": 1
+      }
+    },
+    "penny_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_elite_four_penny": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "aklove_defeated": {
+      "trigger": "rctmod:defeat_count",
+      "conditions": {
+        "trainer_ids": [
+          "light_of_ruin_aklove_3_05c5"
+        ],
+        "count": 1
+      }
+    },
+    "aklove_already_defeated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "rctmod:trainers/defeat_light_of_ruin_aklove_3": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "moleman_defeated",
+      "moleman_already_defeated"
+    ],
+    [
+      "elias_defeated",
+      "elias_already_defeated"
+    ],
+    [
+      "arabella_defeated",
+      "arabella_already_defeated"
+    ],
+    [
+      "penny_defeated",
+      "penny_already_defeated"
+    ],
+    [
+      "aklove_defeated",
+      "aklove_already_defeated"
+    ]
+  ],
+  "rewards": {
+    "function": "cobblemon_origins:ancient_dna/grant"
+  }
+}

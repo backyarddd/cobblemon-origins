@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "bca:support_tables/freezer",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:air",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobbleloot:profiles/village"
+        }
+      ]
+    }
+  ]
+}

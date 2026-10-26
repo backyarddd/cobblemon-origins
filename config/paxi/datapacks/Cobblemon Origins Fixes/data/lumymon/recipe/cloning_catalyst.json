@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NPN",
+    "PHP",
+    "NPN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "P": {
+      "item": "cobblemon:psychic_gem_block"
+    },
+    "H": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "id": "lumymon:cloning_catalyst",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BGB",
+    "GSG",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "G": {
+      "item": "cobblemon:dragon_gem_block"
+    },
+    "S": {
+      "item": "cobblemon:dragon_scale"
+    }
+  },
+  "result": {
+    "id": "lumymon:aether_gem",
+    "count": 1
+  }
+}

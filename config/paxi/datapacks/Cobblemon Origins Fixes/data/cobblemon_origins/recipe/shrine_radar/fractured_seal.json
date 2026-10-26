@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lumymon:poke_radar"
+    },
+    {
+      "item": "lumymon:spark_relic"
+    }
+  ],
+  "result": {
+    "id": "lumymon:split_decision_radar",
+    "count": 1,
+    "components": {
+      "lumymon:structure_name": "cobblemon_origins:fractured_seal",
+      "lumymon:dimension_id": "minecraft:overworld",
+      "lumymon:map_decoration": "lumymon:regieleki_regidrago"
+    }
+  }
+}

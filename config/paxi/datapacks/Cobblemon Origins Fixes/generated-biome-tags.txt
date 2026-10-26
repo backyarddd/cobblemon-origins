@@ -1,0 +1,2 @@
+data/cobblemon/tags/worldgen/biome/spawns/non_underground/is_overworld.json
+data/cobblemon/tags/worldgen/biome/spawns/non_underground/is_spooky.json

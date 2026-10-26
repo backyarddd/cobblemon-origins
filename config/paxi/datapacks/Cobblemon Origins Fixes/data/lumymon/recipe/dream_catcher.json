@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "lumymon:dream_string"
+    },
+    "L": {
+      "item": "lumymon:lunar_wing"
+    }
+  },
+  "result": {
+    "id": "lumymon:dream_catcher",
+    "count": 1
+  }
+}

@@ -1,0 +1,2929 @@
+{
+	autofocus_id: "6E54FFAD927C2267"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legend_shrines"
+	group: "268A107AD4C0AC18"
+	icon: {
+		id: "lumymon:poke_radar"
+	}
+	id: "3C367EC22F265D74"
+	order_index: 14
+	quest_links: [
+		{
+			id: "35B6639E81714B2C"
+			linked_quest: "58C9C6489DBA821B"
+			x: 0.0d
+			y: -4.25d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["214E035F07C9B911"]
+			icon: {
+				id: "lumymon:poke_radar"
+			}
+			id: "6E54FFAD927C2267"
+			rewards: [
+				{
+					id: "1D4E1F1C5344FC27"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0BB9C41EDFD08239"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			id: "494D8F8FDE620DC1"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 750"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5887CC7330FEC837"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "39B778BC793526C5"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "570309D16642D425"
+					item: {
+						count: 1
+						id: "lumymon:kanto_cartography_table"
+					}
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			id: "73A7285A49D3CD7F"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 750"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4C71DEABF2B1ABF0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2005348D7519FEEB"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "331FF79717FE5BDA"
+					item: {
+						count: 1
+						id: "lumymon:end_cartography_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			id: "4ADAABBDF17F1C44"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "00A66E61CB9ADBB4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 3
+					id: "184DA05A4FDD6A8A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A79AB8D15B35D09"
+					item: {
+						count: 1
+						id: "lumymon:locator_chip"
+					}
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4ADAABBDF17F1C44"]
+			id: "5EF8F4D5FBC6A8E9"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1AEA1EC1BE87FF50"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "607C96FACCFAFCC7"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "15892F672A78950F"
+					item: {
+						count: 1
+						id: "lumymon:poke_radar"
+					}
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:groudon_altar"
+			}
+			id: "3936FB49B06EABAD"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "216389E84A9A28B1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "21B12EA9A985390E"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3A57CD3EFF99E18F"
+					structure: "cobblemon_origins:primal_throne"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3936FB49B06EABAD"]
+			icon: {
+				id: "lumymon:geostone"
+			}
+			id: "13BF1C089BEE5C24"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1768318F5B2C803D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "0736B2EA410C57B4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1D870F131C9F42A4"
+					item: {
+						count: 1
+						id: "lumymon:molten_crust"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["13BF1C089BEE5C24"]
+			id: "4981651A675126BC"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5CF38AD27053A102"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4AD1F1A8819BAD74"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14E339CC1496DFE5"
+					item: {
+						count: 1
+						id: "lumymon:earth_core"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"3936FB49B06EABAD"
+				"4981651A675126BC"
+				"45C0BC6CC4C447BF"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:groudon"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "128E080F7B9FE52F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06FBA274AE54C68B"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "129FA73F1C0008ED"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "5191A519C2BD3377"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:groudon"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:kyogre_altar"
+			}
+			id: "2260055357FD113B"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5C8638F85629C19F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "4F2DC63EFC22558B"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4F3808FFE3E6C673"
+					structure: "cobblemon_origins:abyssal_sanctum"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "19B705EC550B0DEE"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2E0905265E7B75FD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "57FD225CAC026ACE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73BEF3E2DEB1108C"
+					item: {
+						count: 1
+						id: "lumymon:ocean_core"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"2260055357FD113B"
+				"19B705EC550B0DEE"
+				"45C0BC6CC4C447BF"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:kyogre"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "729F0725DEC219FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DF692F36CDC2701"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "53C6B3AACE42C5C1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "791EB59500BD061D"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:kyogre"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:rayquaza_altar"
+			}
+			id: "1276A55D4923D935"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "087DE90322CE69F8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "2DC9EBC13B731436"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40217119A80A0696"
+					structure: "cobblemon_origins:skybreak_spire"
+					type: "structure"
+				}
+			]
+			x: 13.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:aether_gem"
+			}
+			id: "2A437E1268BA1035"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 3000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "00FB8BAB1F6E7B56"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E2BA7B7DB243FA2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "02B5C61E6128ED5D"
+					item: {
+						count: 1
+						id: "lumymon:primordial_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "122B40D65F1D450A"
+					item: {
+						count: 1
+						id: "lumymon:desolate_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "257F437C34332170"
+					item: {
+						count: 1
+						id: "lumymon:aether_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "7062EBB4185939D6"
+					item: {
+						count: 1
+						id: "lumymon:emerald_emblem"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2A437E1268BA1035"]
+			id: "1335C4E2EABD4ADE"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 3000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5F1BEB807C6863D8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "190D21A809131143"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C998F82EA17E392"
+					item: {
+						count: 1
+						id: "lumymon:sky_core"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"1276A55D4923D935"
+				"1335C4E2EABD4ADE"
+				"45C0BC6CC4C447BF"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:rayquaza"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "01C564F4A70C6999"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6022CC214200F2BE"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "0AAABB92AC05CB1B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "12CF1B26035AB0CC"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:rayquaza"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:deoxys_shrine"
+			}
+			id: "732AC3B4B9D99F82"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2CB65457DF413DFE"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "1DA8C4C19EE95660"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "45D22795A64945B3"
+					structure: "cobblemon_origins:sundered_star"
+					type: "structure"
+				}
+			]
+			x: 18.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "7E8977D068C66183"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "036D032A2DE19293"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "26686D716D13D395"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61CC69B586B8B918"
+					item: {
+						count: 1
+						id: "lumymon:meteorite_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"732AC3B4B9D99F82"
+				"7E8977D068C66183"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:deoxys"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "778DF221B78E9E63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "309364782BDD6619"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "663BC94B366E9CD8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "296742DC98320100"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:deoxys"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:articuno_altar"
+			}
+			id: "48F4E57DF987A226"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6C1CF578073CA76B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "1C5337BC07329525"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "69623CAECAFA28C1"
+					structure: "cobblemon_origins:frostwing_spire"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "05FDED7154235B5F"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "605AB9830691483E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "34CA65DCA23F74BE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C0B01AFDD17F6A4"
+					item: {
+						count: 1
+						id: "lumymon:glacier_feather"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"48F4E57DF987A226"
+				"05FDED7154235B5F"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:articuno"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7B62C7530079C793"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "775BA1575EC629C2"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3EEAD252C4E1F535"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "337511D5989EAD06"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:articuno"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:zapdos_altar"
+			}
+			id: "689560C70494062D"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4840ED87245490D0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "6D8759B89DB96120"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3A2C2E5384F4C56A"
+					structure: "cobblemon_origins:stormcaller_citadel"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "33C5400D06086261"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7749B5D3F16E1BC8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "75457A5730389C9A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F8124E32C91A129"
+					item: {
+						count: 1
+						id: "lumymon:thunder_feather"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"689560C70494062D"
+				"33C5400D06086261"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:zapdos"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "54777999F885D21B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06D0CAEFADBF24DD"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3DDD435622F00904"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "6AFD7F6E2060B9E7"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:zapdos"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:moltres_altar"
+			}
+			id: "622AD3DD8DA9D77B"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7C0E8F53C849E764"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5B839E8254366312"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F78A4EDE71FDE55"
+					structure: "cobblemon_origins:phoenix_caldera"
+					type: "structure"
+				}
+			]
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "768501C33B6EF074"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "2586BD65D5522F55"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "0C1A3DA5F1522CFF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C446707BD0F98C9"
+					item: {
+						count: 1
+						id: "lumymon:ember_feather"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"622AD3DD8DA9D77B"
+				"768501C33B6EF074"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:moltres"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1A3952841C99BDD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EB4BA2C64DCA0F0"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "331CB4F5D6D57660"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "3D6848A0F98E41FD"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:moltres"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:cresselia_altar"
+			}
+			id: "10D6CFE4F7B4A34B"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5753B233F38482BC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "722832BAE88DE069"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6D58AF230C1B58EE"
+					structure: "cobblemon_origins:crescent_sanctuary"
+					type: "structure"
+				}
+			]
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:lunar_wing"
+			}
+			id: "084A96F858B9431A"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "590CDAA9D94CD91E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "08A949D9917984A5"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "644DE7E4A31B0173"
+					item: {
+						count: 1
+						id: "lumymon:dream_string"
+					}
+					type: "item"
+				}
+				{
+					id: "17A5DBD8315AF2C8"
+					item: {
+						count: 1
+						id: "lumymon:lunar_wing"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["084A96F858B9431A"]
+			id: "002A0C9EA1C91D62"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "16BBD62D74A8A31F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "505645DD86A41302"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37EEECC43D208297"
+					item: {
+						count: 1
+						id: "lumymon:dream_catcher"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"10D6CFE4F7B4A34B"
+				"002A0C9EA1C91D62"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:cresselia"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "0966FE132CD6B252"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E547C14448265A6"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "20A4A0664F6BCAE2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "03CBDC3E226CA19C"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:cresselia"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:regirock_altar"
+			}
+			id: "23D7EDD276AC0307"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "399D07ABF7AD263A"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "0C9EAC2821C0D063"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2DF64FF306BF59DA"
+					structure: "cobblemon_origins:dunebound_sepulcher"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "2CFADC0399BC5033"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "0D6F490AC3F276A0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "180566D4A69EE013"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0BA7D1D18C56CDEC"
+					item: {
+						count: 1
+						id: "lumymon:pebble_relic"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"23D7EDD276AC0307"
+				"2CFADC0399BC5033"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:regirock"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3BA33BA96C390DC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1868FD833E39CEFC"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "52B220D0DDE970BD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "6BB2BA2DAD57BAF6"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:regirock"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:regice_altar"
+			}
+			id: "0B32270163885C2F"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "796E6C71A65C2BE9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "7D90150817728080"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "14C01623402127E0"
+					structure: "cobblemon_origins:rimefrost_rotunda"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "424901914833F36A"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "5153611B29BAD2E0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "642EAB43DD2154F5"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44563091F7A2C497"
+					item: {
+						count: 1
+						id: "lumymon:cryo_relic"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"0B32270163885C2F"
+				"424901914833F36A"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:regice"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "63597DBAE8AEF0CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31102D0A1B4BC946"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "279D2AC789D5FA40"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "69ADCD1A58802BDA"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:regice"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:registeel_altar"
+			}
+			id: "0A93C7D7AED39047"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "399D4485ABE7E2D9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5562D92799DD3929"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3AD99C50C6A703B1"
+					structure: "cobblemon_origins:ironclad_mausoleum"
+					type: "structure"
+				}
+			]
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "0FF29D37FE49CD71"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "116574B0809F1F67"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "565424DA526CDD45"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E9083D6D9D9A030"
+					item: {
+						count: 1
+						id: "lumymon:metal_relic"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"0A93C7D7AED39047"
+				"0FF29D37FE49CD71"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:registeel"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "19AA0BD951DE1130"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E3A0CAA439E476B"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3953619ED16E08A9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "641D5975276F7F75"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:registeel"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:regieleki_altar"
+			}
+			id: "24697E922ED0506F"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "779F28D9980D4331"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "208DA35433B9EBE1"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "26A7ECDBDA665B45"
+					structure: "cobblemon_origins:fractured_seal"
+					type: "structure"
+				}
+			]
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "64298FD4A9C13D66"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "09FB42043A9824BF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "7C2702E53CFFB834"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DB01958CD3912E4"
+					item: {
+						count: 1
+						id: "lumymon:spark_relic"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "1F9CE2DD65A7D921"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "14DB8F538C8CA925"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4E24C6C14B2E8C55"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39503EAC1608A3EB"
+					item: {
+						count: 1
+						id: "lumymon:draco_relic"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["24697E922ED0506F"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:regieleki"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "210DBD5048895338"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21C5666E3DEA0004"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7D10DD0EADC80EC1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "4F3F04CCC964506E"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:regieleki,cobblemon:regidrago"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:mew_shrine"
+			}
+			id: "3BAFDB205CFF49ED"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3F094FDA4F6D03E6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5C4D50FE8E15A8DC"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7AD307CDFFEC170A"
+					structure: "cobblemon_origins:tree_of_beginning"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "363F9D6028C7E1B0"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "06C52FDDFAFDB5FE"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "45FE034FFBABFA0A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "377EA3CB35FECF4B"
+					item: {
+						count: 1
+						id: "lumymon:ancient_dna"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["363F9D6028C7E1B0"]
+			id: "56F5FFFD2A38C36F"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "72A688A9197C4CAB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "05ED582001EE259D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AA907118BBE61AC"
+					item: {
+						count: 1
+						id: "lumymon:origin_fossil"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3BAFDB205CFF49ED"
+				"56F5FFFD2A38C36F"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:mew"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "696275AEAB883742"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E711B0BEC020C02"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "60E28B3DBB6EA1C9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "77E660C081E71AC2"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:mew"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:jirachi_shrine"
+			}
+			id: "5C1E4FDBD2013A28"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "7F04444BAC1438C7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "095D9FA5501D76AB"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6FB619AF47D74073"
+					structure: "cobblemon_origins:starfall_observatory"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "5A83806B4A14BF72"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "44BC188D60C50A16"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "0398844E6C3F8D91"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F03345647958975"
+					item: {
+						count: 1
+						id: "lumymon:melodic_tape_vol_1"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"5C1E4FDBD2013A28"
+				"5A83806B4A14BF72"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:jirachi"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5E266A42601887C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E64E042D4467D42"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "1DCCEBD8B27DB76C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "21FBE69F89924D03"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:jirachi"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:shaymin_shrine"
+			}
+			id: "7CD58C77973C1489"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4A13CB54716F0119"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "4299FD4D2C264E26"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "43B4B24AD370F1D8"
+					structure: "cobblemon_origins:bloomveil_sanctuary"
+					type: "structure"
+				}
+			]
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "5E4BF9510078944B"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2500"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "27ECC36870DA8719"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "41D86AABFD774AA7"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B326ED43EDCE900"
+					item: {
+						count: 1
+						id: "lumymon:prof_oak_letter"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7CD58C77973C1489"
+				"5E4BF9510078944B"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:shaymin"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5320B6E3A8CEA145"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DD2D941E14B4A81"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "4D44E9727197D61E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "7AE090F8876AEF3F"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:shaymin"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			icon: {
+				id: "lumymon:latias_altar"
+			}
+			id: "35ABB8933E6306C0"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 1250"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "6948A4BD76155158"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "0ECC616DA148A273"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0030FAA95AB5E5AE"
+					structure: "cobblemon_origins:soul_dew_gardens"
+					type: "structure"
+				}
+			]
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "6A53E1F3B5F06348"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "49B81440ADA770A0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "751F280FECB25FD0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63C91DEDA9F83461"
+					item: {
+						count: 1
+						id: "lumymon:ruby_dew"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6E54FFAD927C2267"]
+			hide_dependency_lines: true
+			id: "24B12F3AD7ED0ADA"
+			rewards: [
+				{
+					command: "/cobbledollars give {p} 2000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "3FD20785992E316D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 2
+					id: "75D55C8EA32DD55D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D349A0B4B833764"
+					item: {
+						count: 1
+						id: "lumymon:sapphire_dew"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"35ABB8933E6306C0"
+				"6A53E1F3B5F06348"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:latias"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "044608AC92F705EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D8C680C15739A9E"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "0CBF58F27C875333"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "45D66106388B8A03"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:latias"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"35ABB8933E6306C0"
+				"24B12F3AD7ED0ADA"
+			]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:latios"
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3BAE494AB529CD85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AB3924267C9B142"
+					table_id: 1633971797296030358L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 4000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "0F22E063F6675CC4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					held_items: ""
+					id: "132B3DDDDD154065"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:latios"
+					pokemon_type: ""
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"128E080F7B9FE52F"
+				"729F0725DEC219FF"
+				"01C564F4A70C6999"
+				"778DF221B78E9E63"
+				"7B62C7530079C793"
+				"54777999F885D21B"
+				"1A3952841C99BDD2"
+				"0966FE132CD6B252"
+				"3BA33BA96C390DC9"
+				"63597DBAE8AEF0CE"
+				"19AA0BD951DE1130"
+				"210DBD5048895338"
+				"696275AEAB883742"
+				"5E266A42601887C6"
+				"5320B6E3A8CEA145"
+				"044608AC92F705EE"
+				"3BAE494AB529CD85"
+			]
+			hide_dependency_lines: true
+			id: "3278FF3EAE9D7E80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F24035924A2443D"
+					table_id: 3580048545722715015L
+					type: "random"
+				}
+				{
+					command: "/cobbledollars give {p} 15000"
+					icon: {
+						id: "cobblemon:relic_coin"
+					}
+					id: "63C3DA924A865107"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					count: 3
+					id: "02BFAC27EAE4C37D"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "534D76495140DA8E"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+	]
+}

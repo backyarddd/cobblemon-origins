@@ -1,0 +1,27 @@
+%#FFD966%Tip:%#% %#D7DEEE%Press K to open your Quest Book.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Aim at a wild Pokémon and press R to start a battle.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Press G to compare Poké Balls before you throw.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Shinies appear 1 in 4,096. Chat announces every one.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Hover an item and press R for recipes or U for uses.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Search a Pokémon in REI to see where it spawns.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Press M for the map. You can claim up to 500 chunks.%#%
+%#FFD966%Tip:%#% %#D7DEEE%/sethome saves up to 3 homes. /home takes you back.%#%
+%#FFD966%Tip:%#% %#D7DEEE%/rtp drops you somewhere new in the world.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Teleporting between activated Waystones is free.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Your grave keeps all of your items and experience.%#%
+%#FFD966%Tip:%#% %#D7DEEE%/back returns you to where you last died.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Beat Pokémon and trainers to earn CobbleDollars.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Cobble Merchants in villages sell Poké Balls.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Crops grow all year below Y 48.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Each season lasts 24 days. The world starts in spring.%#%
+%#FFD966%Tip:%#% %#D7DEEE%With Lootr, every player gets their own chest loot.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Watch for 201 Trainers NPCs out in the world.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Only battling Pokémon and Exp. Share holders earn EXP.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Lost your Cobblepedia? Craft one from an Apricorn and a Book.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Use /ftbteams party create to play with friends.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Press V to open the voice chat menu.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Press B to open your backpack.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Hold ` to mine connected blocks with FTB Ultimine.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Press J to open the battle log.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Tera Shards drop from defeated Pokémon.%#%
+%#FFD966%Tip:%#% %#D7DEEE%Dynamax only works at a Power Spot.%#%

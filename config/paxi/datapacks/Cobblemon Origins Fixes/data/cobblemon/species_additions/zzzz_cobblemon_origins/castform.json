@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:castform",
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  }
+}

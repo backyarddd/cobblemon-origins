@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "mega_showdown:gracidea_flower"
+    },
+    {
+      "item": "cobblemon:grass_gem_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "id": "lumymon:prof_oak_letter",
+    "count": 1
+  }
+}

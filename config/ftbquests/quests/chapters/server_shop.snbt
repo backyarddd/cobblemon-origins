@@ -1,0 +1,110 @@
+{
+	autofocus_id: "682BBBCB6A5E5855"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "server_shop"
+	group: "6253715713D7FD20"
+	icon: {
+		id: "cobblemon:relic_coin"
+	}
+	id: "5BEAC426CD10FA58"
+	order_index: 45
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:relic_coin"
+			}
+			id: "682BBBCB6A5E5855"
+			rewards: [
+				{
+					id: "3D19A641C7B5D2A2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5621D6DA0F14238C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682BBBCB6A5E5855"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "7B5D661404AF5575"
+			rewards: [
+				{
+					id: "6295404E9D8F6F13"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "10CD06B73EB87E63"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["682BBBCB6A5E5855"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "1840EEA2FD5A8520"
+			rewards: [
+				{
+					id: "3A5D496B3F07E301"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "0BA424E754EE6CF3"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"7B5D661404AF5575"
+				"1840EEA2FD5A8520"
+			]
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
+			id: "6FA8881DEF066CE2"
+			rewards: [
+				{
+					id: "407B2F4D7F1C52F8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "48219EA9973E66F2"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

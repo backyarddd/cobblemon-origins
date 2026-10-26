@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "cobblemon_origins:phoenix_caldera",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1720450108,
+    "spacing": 32,
+    "separation": 10,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 12
+    }
+  }
+}
